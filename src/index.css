@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+
+@font-face {
+    font-family: Milky Walky;
+    src: url(../src/fonts/MilkyWalky-Regular.woff);
+}
+.milky{
+    font-family: Milky Walky;
+}
+
+@font-face {
+    font-family: Satoshi;
+    src: url(../src/fonts/Satoshi-Regular.otf);
+}
+.satoshi{
+    font-family: Satoshi;
+}
+
+/* https://api.unsplash.com/search/photos?page=1&query=${img}&client_id=w9F8q8A3FV-D9T0Bzsu6i6rGDjLmsmg4XkVyaqcseXo  */
